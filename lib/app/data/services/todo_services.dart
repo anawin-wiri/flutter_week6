@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:test_getx/app/data/todo.dart';
 
-class TodoServices extends GetxService {
+class TodoService extends GetxService {
   final todos = <Todo>[].obs;
 
   void addTodo(Todo todo) {
