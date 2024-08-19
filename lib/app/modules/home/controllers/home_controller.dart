@@ -13,6 +13,7 @@ class HomeController extends GetxController {
 
   void toggleTodoStatus(int index) {
     todoService.toggleTodoStatus(index);
+    update();
   }
 
   void removeTodoAt(int index) {
