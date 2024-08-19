@@ -29,4 +29,9 @@ class TodoService extends GetxService {
     todos[index].isDone = !todos[index].isDone;
     todos.refresh();
   }
+
+  void editTodo(int index, Todo todo) {
+    todos[index] = todo;
+    todos.refresh();
+  }
 }
